@@ -2,6 +2,11 @@
   display: flex;
   justify-content: space-between;
 
+  .selected {
+    color: #fff;
+    background-color: $medium-gray;
+  }
+
   button {
     width: 42px;
     height: 42px;

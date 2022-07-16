@@ -95,6 +95,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.select-rating .selected {
+  color: #fff;
+  background-color: hsl(217deg, 12%, 54%);
+}
 .select-rating button {
   width: 42px;
   height: 42px;
