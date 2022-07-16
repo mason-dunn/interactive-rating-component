@@ -1,0 +1,18 @@
+.submit {
+  height: 45px;
+  border: none;
+  border-radius: 22.5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  letter-spacing: .186rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: $accent-color;
+
+  &:hover {
+    cursor: pointer;
+    color: $accent-color;
+    background-color: #fff;
+  }
+}

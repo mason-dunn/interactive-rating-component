@@ -1,0 +1,22 @@
+.card {
+  width: 327px;
+  height: 360px;
+  border-radius: 15px;
+  background: $card-gradient;
+  padding: 24px 22px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h1 {
+    color: $heading-color;
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+
+  p {
+    color: $body-color;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}

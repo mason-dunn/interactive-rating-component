@@ -1,0 +1,15 @@
+.container {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+@import './theme';
+@import './normalize';
+@import './card';
+@import './star';
+@import './submit';
+@import './select-rating';
+
+
+

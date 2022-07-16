@@ -1,0 +1,22 @@
+.select-rating {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: $medium-gray;
+    background-color: $dark-blue;
+
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+      background-color: $accent-color;
+    }
+  }
+}
