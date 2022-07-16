@@ -1,0 +1,14 @@
+.your-rating {
+  width: 168px;
+  height: 32px;
+  background-color: $dark-blue;
+  border-radius: 22.5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: $accent-color;
+  }
+}

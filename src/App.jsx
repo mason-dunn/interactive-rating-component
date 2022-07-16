@@ -1,10 +1,11 @@
 import FormCard from './components/FormCard'
-import Card from './components/shared/Card'
+import SubmitCard from './components/SubmitCard'
 
 function App() {
   return (
     <main className="container">
       <FormCard />
+      <SubmitCard />
     </main>
   )
 }

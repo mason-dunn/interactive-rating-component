@@ -1,12 +1,41 @@
 .card {
+  margin: 10px 0;
   width: 327px;
   height: 360px;
   border-radius: 15px;
   background: $card-gradient;
   padding: 24px 22px 32px 24px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
+  .submitted {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    &-top {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      img {
+        width: 144px;
+        height: 96px;
+      }
+    }
+
+    &-bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+  }
 
   h1 {
     color: $heading-color;

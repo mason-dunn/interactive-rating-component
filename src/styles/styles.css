@@ -21,6 +21,7 @@ body {
 }
 
 .card {
+  margin: 10px 0;
   width: 327px;
   height: 360px;
   border-radius: 15px;
@@ -29,6 +30,28 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.card .submitted {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.card .submitted-top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.card .submitted-top img {
+  width: 144px;
+  height: 96px;
+}
+.card .submitted-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .card h1 {
   color: #fff;
@@ -87,4 +110,17 @@ body {
   cursor: pointer;
   color: #fff;
   background-color: hsl(25deg, 97%, 53%);
+}
+
+.your-rating {
+  width: 168px;
+  height: 32px;
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 22.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.your-rating p {
+  color: hsl(25deg, 97%, 53%);
 }/*# sourceMappingURL=styles.css.map */
