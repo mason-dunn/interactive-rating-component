@@ -1,12 +1,14 @@
+import { useContext } from 'react';
 import FormCard from './components/FormCard'
 import SubmitCard from './components/SubmitCard'
+import { RatingContext, RatingProvider } from './context/RatingContext';
 
 function App() {
-  const submitted = false;
+  const { isSubmitted } = useContext(RatingContext)
 
   return (
     <main className="container">
-      { submitted ? <SubmitCard /> : <FormCard />}
+      { isSubmitted ? <SubmitCard /> : <FormCard />}
     </main>
   )
 }

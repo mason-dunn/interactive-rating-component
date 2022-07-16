@@ -1,8 +1,12 @@
+import { useContext } from "react"
+import { RatingContext } from "../context/RatingContext"
 import SelectRating from "./SelectRating"
 import Card from "./shared/Card"
 import Star from "./Star"
 
 function FormCard() {
+  const { setIsSubmitted } = useContext(RatingContext)
+
   return (
     <Card>
       <Star />
@@ -11,7 +15,7 @@ function FormCard() {
         Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
       </p>
       <SelectRating />
-      <button className="submit">Submit</button>
+      <button onClick={ () => setIsSubmitted(true) } className="submit">Submit</button>
     </Card>
   )
 }

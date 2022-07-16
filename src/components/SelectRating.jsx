@@ -1,8 +1,9 @@
-import { useState } from "react"
+import { useContext } from "react"
+import { RatingContext } from "../context/RatingContext"
 
 function SelectRating() {
-  const [currRating, setCurrRating] = useState(5)
-  
+  const { currRating, setCurrRating } = useContext(RatingContext)
+
   return (
     <div className="select-rating">
       {
