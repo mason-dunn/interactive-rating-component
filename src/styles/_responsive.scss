@@ -1,0 +1,25 @@
+html {
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.card {
+  @media screen and (min-width: 768px) {
+    width: 412px;
+    height: 416px;
+  }
+}
+
+.select-rating button { 
+  @media screen and (min-width: 768px) {
+    width: 51px;
+    height: 51px;
+  }
+}
+
+.your-rating {
+  @media screen and (min-width: 768px) {
+    width: 193px;
+  }
+}
